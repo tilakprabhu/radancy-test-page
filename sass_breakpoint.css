@@ -556,4 +556,7 @@ p {
   .space, .space-top {
     padding-top: 15px;
   }
+  .header-logo-section{
+    text-align: center;
+    }
 }/*# sourceMappingURL=sass_breakpoint.css.map */

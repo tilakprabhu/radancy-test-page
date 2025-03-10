@@ -498,6 +498,10 @@ p {
   gap: 10px;
 }
 
+  .ft-a, .ft-span{
+    color:#000;
+  }
+
 .footer-content p {
   font-size: 12px;
   line-height: 20px;

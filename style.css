@@ -251,7 +251,7 @@ p{
 }
 .content-left {
     padding-right: 50px;
-    border-right: 1px solid #000;
+    border-right: 1px solid #878787;
 }
 .content-right{
      /* width: 470px; */
@@ -286,10 +286,6 @@ p{
     display: flex;
     gap: 10px;
 }
-  .ft-a, .ft-span{
-    color:#000;
-  }
-
 .footer-content p{
     font-size: 12px;
     line-height: 20px;
@@ -304,6 +300,15 @@ p{
 .office-abt{
     position: relative;
 }
+.learn-p{
+    color: #759b24;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.arrow-img{
+    padding-top: 5px;
+}
 .office-abt::before {
     position: absolute;
     content: "";
@@ -317,6 +322,8 @@ p{
     height: 100px;
     z-index: -1;
 }
+
+
 /* resposive css */
 
 @media (min-width: 100px) and (max-width: 767px){
@@ -342,7 +349,8 @@ p{
     .space, .space-top {
         padding-top: 15px;
     }
-    .header-logo-section{
-    text-align: center;
+    .border-bottom{
+        border: 1px solid #878787;
+        padding-bottom: 25px;
     }
 }

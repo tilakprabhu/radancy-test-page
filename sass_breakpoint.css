@@ -498,10 +498,6 @@ p {
   gap: 10px;
 }
 
-  .ft-a, .ft-span{
-    color:#000;
-  }
-
 .footer-content p {
   font-size: 12px;
   line-height: 20px;
@@ -516,6 +512,18 @@ p {
   color: #109a69;
 }
 
+.ft-a {
+  color: #000;
+}
+.learn-p{
+  color: #759b24;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.arrow-img{
+  padding-top: 5px;
+}
 .office-abt {
   position: relative;
 }
@@ -556,7 +564,8 @@ p {
   .space, .space-top {
     padding-top: 15px;
   }
-  .header-logo-section{
-    text-align: center;
-    }
+  .border-bottom{
+    border: 1px solid #878787;
+    padding-bottom: 25px;
+}
 }/*# sourceMappingURL=sass_breakpoint.css.map */

@@ -307,7 +307,11 @@ p{
     align-items: center;
 }
 .arrow-img{
-    padding-top: 5px;
+  /* padding-top: 5px; */
+  width: 20px;
+}
+.ft-span{
+  color: #000;
 }
 .office-abt::before {
     position: absolute;

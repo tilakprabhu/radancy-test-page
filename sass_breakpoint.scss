@@ -43,7 +43,7 @@ $breakpoints: (
 }
 
 [class*="col-"] {
-  flex: 1;
+  flex: auto;
 }
 
 @each $name, $size in $breakpoints {
@@ -225,7 +225,15 @@ p {
   line-height: 20px;
   padding: 15px 0;
 }
-
+.learn-p{
+  color: #759b24;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.arrow-img{
+  padding-top: 5px;
+}
 .office-img img {
   width: 200px;
 }
@@ -233,7 +241,9 @@ p {
 .green-color {
   color: #109a69;
 }
-
+.ft-a{
+    color: #000;
+}
 .office-abt {
   position: relative;
   &::before {
@@ -274,4 +284,8 @@ p {
   .space, .space-top {
     padding-top: 15px;
   }
+  .border-bottom{
+    border: 1px solid #878787;
+    padding-bottom: 25px;
+}
 }
